@@ -99,7 +99,7 @@ sendButton.addEventListener('click', function () {
     if (selectedCats.length > 0) {
         // Создаем скрытую форму для отправки на Formspree
         const form = document.createElement('form');
-        form.setAttribute('action', 'https://formspree.io/f/xnnjdedp'); // Ваш новый Formspree URL
+        form.setAttribute('action', 'https://formspree.io/f/mqaeqrqd'); // Ваш новый Formspree URL
         form.setAttribute('method', 'POST');
 
         // Проверка того, что котики выбраны
