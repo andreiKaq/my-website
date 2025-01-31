@@ -24,6 +24,8 @@ html,body{
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
     background-color: #D9D9D9;
+    overflow: auto !important;
+
 }
 input,button,textarea{font-family:inherit;}
 
@@ -51,7 +53,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-family: "Hachi Maru Pop", serif;
     font-weight: 400;
     font-style: normal;
-
+    
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .main__card {
@@ -124,6 +128,28 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
+
+@media screen and (max-width: 700px) {
+     
+    .gallery__images {
+        margin-top: 105em;
+        text-align: center;
+
+        .first__row,
+        .second__row,
+        .last__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    }
+
+}
+
+
+
+
 .gallery {
     height: 100vh;
     background-color: #D9D9D9;
@@ -135,7 +161,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     
     
     
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -158,8 +185,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
     max-width: 800px;
     width: 100%;
-    max-height: 800px;
-    height: 100%;
+    /* max-height: 800px; */
+    /* height: 100%; */
     background-color: #ffeeee;
     border-radius: 20px;
 
@@ -169,9 +196,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
     align-items: center;
     /* padding: 40px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* min-height: 100vh; */
+
     
 }
 
