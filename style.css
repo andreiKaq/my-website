@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 
@@ -141,6 +141,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .gallery__images {
@@ -163,6 +164,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     align-items: center;
     /* padding: 40px; */
     margin: 0 auto;
+
+    flex-wrap: wrap;
     
 }
 
