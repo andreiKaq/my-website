@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @media screen and (max-width: 700px) {
      
     .gallery__images {
-        margin-top: 105em;
+        margin-top: 110em;
         text-align: center;
 
         .first__row,
